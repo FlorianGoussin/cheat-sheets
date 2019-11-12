@@ -20,14 +20,19 @@ git config alias.last '!git reflog | grep -i "checkout: moving" -m 10'
 
 ## log
 
-Show commits only on branch2:
+Log changes not yet merged in the parent branch:
+```git
+git log --no-merges <branch>..
+```
+
+Or:
 ```git
 git cherry -v <branch1> <branch2>
 ```
 
 Or:
 ```git
-git cherry -v <branchToCompareWith>
+git cherry -v <branch>
 ```
 
 Cool log options:
