@@ -23,6 +23,10 @@ git config alias.last '!git reflog | grep -i "checkout: moving" -m 10'
 Show commits only on branch2:
 ```git
 git cherry -v <branch1> <branch2>
+```
+
+Or:
+```git
 git cherry -v <branchToCompareWith>
 ```
 
