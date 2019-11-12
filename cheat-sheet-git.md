@@ -79,6 +79,11 @@ Save diff to a file:
 git diff --color > foo.txt
 ```
 
+Show diff between two commits:
+```git
+git diff <commit1> <commit2> <path>
+```
+
 ## merge
 
 Fix merging conflict choosing the source branch:
@@ -88,8 +93,8 @@ git merge -X theirs <branch>
 
 For specific files:
 ```git
-git checkout --ours -- <paths>
-git checkout --theirs -- <paths>
+git checkout --ours -- <path>
+git checkout --theirs -- <path>
 ```
 
 ## remove
