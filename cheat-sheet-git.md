@@ -13,6 +13,11 @@ Get:
 git config --local user.email
 ```
 
+create “last” alias (see branch section):
+```git
+git config alias.last '!git reflog | grep -i "checkout: moving" -m 10'
+```
+
 ## push
 
 Delete remote branch:
@@ -28,11 +33,26 @@ Prevent stashing the staged files:
 git stash save --keep-index
 ```
 
+Apply/pop at a specific index:
+```git
+git stash pop "stash@{1}"
+```
+
 ## branch
 
 Find branches the commit is on:
 ```git
 git branch --contains <commit>
+```
+
+Recent branches:
+```git
+git for-each-ref --sort=-<committerdate> refs/heads/
+```
+
+Latest branches:
+```git
+git reflog | grep -i "checkout: moving” -m 10
 ```
 
 ## merge
@@ -55,3 +75,9 @@ Stop tracking:
 git rm -r --cached <path>
 ```
 
+## clean
+
+Remove untracked files:
+```git
+git clean -fd
+```
