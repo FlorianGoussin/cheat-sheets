@@ -20,3 +20,23 @@ Delete remote branch:
 ```git
 git push --no-verify -d origin my-branch-to-delete
 ```
+
+## stash
+
+Prevent stashing the staged files:
+```git
+git stash save --keep-index
+```
+
+## merge
+
+```git
+git merge -X theirs branch-to-merge
+```
+
+For specific files:
+```git
+git checkout --ours -- <paths>
+git checkout --theirs -- <paths>
+```
+
