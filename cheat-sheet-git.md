@@ -84,7 +84,7 @@ Show diff between two commits:
 git diff <commit1> <commit2> <path>
 ```
 
-You can use `--name-only` to show only names of changed files.
+You can use [`--name-only`](https://git-scm.com/docs/git-diff#Documentation/git-diff.txt---name-only) to show only names of changed files.
 
 ## merge
 
