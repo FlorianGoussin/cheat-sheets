@@ -25,6 +25,11 @@ Show commits only on branch2:
 git cherry -v <branch1> <branch2>
 ```
 
+Cool log options:
+```git
+git log --graph --oneline --author=<authorName> --max-count=<count>
+```
+
 ## push
 
 Delete remote branch:
