@@ -6,5 +6,5 @@ For people already confortable with Javascript.
 
 Spy on property change:
 ```js
-Object.defineProperty(myObj, 'prop', { set: val => debugger})
+Object.defineProperty(myObj, 'prop', { set: val => debugger })
 ```
