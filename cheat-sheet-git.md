@@ -13,9 +13,16 @@ Get:
 git config --local user.email
 ```
 
-create “last” alias (see branch section):
+Create “last” alias (see branch section):
 ```git
 git config alias.last '!git reflog | grep -i "checkout: moving" -m 10'
+```
+
+## log
+
+Show commits only on branch2:
+```git
+git cherry -v <branch1> <branch2>
 ```
 
 ## push
