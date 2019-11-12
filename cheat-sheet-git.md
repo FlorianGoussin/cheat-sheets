@@ -1,5 +1,5 @@
 # Git cheat sheet
-Some useful git commands assuming you're already confortable with git
+Some useful git commands assuming you're already confortable with git.
 
 ## config
 
