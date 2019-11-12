@@ -37,6 +37,7 @@ git branch --contains <commit>
 
 ## merge
 
+Fix merging conflict choosing the source branch
 ```git
 git merge -X theirs <branch>
 ```
