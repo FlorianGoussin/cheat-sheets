@@ -55,6 +55,13 @@ Latest branches:
 git reflog | grep -i "checkout: moving” -m 10
 ```
 
+## diff
+
+Save diff to a file:
+```git
+git diff --color > foo.txt
+```
+
 ## merge
 
 Fix merging conflict choosing the source branch:
