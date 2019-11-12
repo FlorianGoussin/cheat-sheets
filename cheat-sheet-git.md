@@ -5,7 +5,7 @@ Some useful git commands
 
 Set:
 ```git
-git config --local user.email "email@domain.tld"
+git config --local user.email <email>
 ```
 
 Get:
@@ -18,7 +18,7 @@ git config --local user.email
 Delete remote branch:
 `--no-verify` to prevent triggering any potential git hook
 ```git
-git push --no-verify -d origin my-branch-to-delete
+git push --no-verify -d origin <branch>
 ```
 
 ## stash
@@ -28,15 +28,29 @@ Prevent stashing the staged files:
 git stash save --keep-index
 ```
 
+## branch
+
+Find branches the commit is on:
+```git
+git branch --contains <commit>
+```
+
 ## merge
 
 ```git
-git merge -X theirs branch-to-merge
+git merge -X theirs <branch>
 ```
 
 For specific files:
 ```git
 git checkout --ours -- <paths>
 git checkout --theirs -- <paths>
+```
+
+## remove
+
+Stop tracking:
+```git
+git rm -r --cached <path>
 ```
 
