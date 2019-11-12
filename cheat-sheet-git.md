@@ -1,7 +1,7 @@
 # Git cheat sheet
 Some useful git commands
 
-## Config
+## config
 
 Set:
 ```git
