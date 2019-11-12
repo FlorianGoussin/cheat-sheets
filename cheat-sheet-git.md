@@ -84,6 +84,8 @@ Show diff between two commits:
 git diff <commit1> <commit2> <path>
 ```
 
+You can use `--name-only` to show only names of changed files.
+
 ## merge
 
 Fix merging conflict choosing the source branch:
