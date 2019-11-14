@@ -21,6 +21,7 @@ Object.defineProperty(myObj, 'prop', { set: val => debugger })
 
 ## Functional patterns
 
+Most of these following examples are just ways of using functional assignments instead of assigning directly in forEach loops.
 Shape a list of items into an object:
 ```js
 const itemKeyValueList = items.map(item => [item.getName(), myNewObjecValue]
