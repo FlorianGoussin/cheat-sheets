@@ -18,3 +18,11 @@ Spy on property change:
 ```js
 Object.defineProperty(myObj, 'prop', { set: val => debugger })
 ```
+
+## Functional patterns
+
+Shape a list of items into an object:
+```js
+const itemKeyValueList = items.map(item => [item.getName(), myNewObjecValue]
+Object.fromEntries(itemKeyValueList))
+```
