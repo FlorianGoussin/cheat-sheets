@@ -27,3 +27,10 @@ Shape a list of items into an object:
 const itemKeyValueList = items.map(item => [item.getName(), myNewObjecValue]
 Object.fromEntries(itemKeyValueList))
 ```
+
+## Misc
+
+Pass value to a callback using a closure:
+```js
+const myCallback = myValue => <args> => {}
+```
