@@ -1,6 +1,6 @@
 # Redux basics
-[Tutorial link](https://www.robinwieruch.de/javascript-reducer)
-[Tutorial examples link](https://github.com/rwieruch/javascript-reducer)
+* [Tutorial link](https://www.robinwieruch.de/javascript-reducer)
+* [Tutorial examples link](https://github.com/rwieruch/javascript-reducer)
 
 ## Reducer
 
