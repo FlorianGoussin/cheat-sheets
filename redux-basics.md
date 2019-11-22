@@ -5,6 +5,7 @@
 ## Reducer
 
 In essence a reducer function is expressed as `(state, action) => newState`
+
 **State Transition**: 
 * The state is immutable so it doesn't change directly. The reducer is a **pure** function that returns a new state.
 * A reducer can have conditional state transitions.
