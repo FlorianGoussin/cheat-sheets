@@ -35,6 +35,13 @@ Cool log options:
 git log --graph --oneline --author=<authorName> --max-count=<count>
 ```
 
+## show
+
+Show Files from a commit:
+```git
+git diff-tree --no-commit-id --name-only -r <commit>
+```
+
 ## push
 
 Delete remote branch:
