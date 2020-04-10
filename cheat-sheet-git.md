@@ -42,7 +42,7 @@ Show Files from a commit:
 git diff-tree --no-commit-id --name-only -r <commit>
 ```
 
-Show Files from a serie of commits from start date to end date:
+Show the files of a serie of commits from start date to end date:
 ```git
 git whatchanged --since '03/16/2020' --until '03/27/2020' --oneline --name-only --pretty=format: | sort | uniq >> changedlist.txt
 ```
