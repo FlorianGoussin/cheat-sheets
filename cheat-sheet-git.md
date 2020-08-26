@@ -20,6 +20,11 @@ git config alias.last '!git reflog | grep -i "checkout: moving" -m 10'
 
 ## log
 
+For a specific file in all branches:
+```git
+git log --all -- path
+```
+
 Log changes not yet merged in the parent branch (don't forget the `..` at the end):
 ```git
 git log --no-merges <branch>..
