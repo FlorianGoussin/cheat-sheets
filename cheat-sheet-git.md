@@ -40,7 +40,7 @@ Cool log options:
 git log --graph --oneline --author=<authorName> --max-count=<count>
 ```
 
-## show
+## show / diff
 
 Show Files from a commit:
 ```git
@@ -55,6 +55,11 @@ git log --name-status -10 path/to/dir
 Show the files of a serie of commits from start date to end date:
 ```git
 git whatchanged --since '03/16/2020' --until '03/27/2020' --oneline --name-only --pretty=format: | sort | uniq >> changedlist.txt
+```
+
+Diff for some file with duration:
+```git
+git diff HEAD 'HEAD@{3 weeks ago}' -- some/file/path/file.ext
 ```
 
 ## push
