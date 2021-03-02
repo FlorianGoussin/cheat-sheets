@@ -44,6 +44,7 @@ git log --graph --oneline --author=<authorName> --max-count=<count>
 
 Show Files from a commit:
 ```git
+git diff-tree -r <commit>
 git diff-tree --no-commit-id --name-only -r <commit>
 ```
 
