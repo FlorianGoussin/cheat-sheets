@@ -132,6 +132,7 @@ git checkout --theirs -- <path>
 Stop tracking:
 ```git
 git rm -r --cached <path>
+git update-index --assume-unchanged <path>
 ```
 
 ## clean
