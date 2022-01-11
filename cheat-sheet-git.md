@@ -114,6 +114,12 @@ git diff <commit1> <commit2> <path>
 
 You can use [`--name-only`](https://git-scm.com/docs/git-diff#Documentation/git-diff.txt---name-only) to show only names of changed files.
 
+Show all the diff of file:
+```git
+git log --follow -p -- file
+```
+Use --stat for overview of lines added/deleted.
+
 ## merge
 
 Fix merging conflict choosing the source branch:
