@@ -3,6 +3,11 @@ Some useful git commands assuming you're already confortable with git.
 
 ## config
 
+Rename remote:
+```
+git remote set-url origin git://new.url.here
+```
+
 Set:
 ```git
 git config --local user.email <email>
